@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт | Сервисный центр HP</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/hp-logo.png" alt="HP">
+                <span>Сервисный Центр</span>
+            </a>
+            <nav>
+                <a href="index.html"><i class="fas fa-home"></i> Главная</a>
+                <a href="services.html"><i class="fas fa-cogs"></i> Услуги</a>
+                <a href="repair.html" class="active"><i class="fas fa-tools"></i> Ремонт</a>
+                <a href="contacts.html"><i class="fas fa-phone"></i> Контакты</a>
+                <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="repair-form">
+        <div class="container">
+            <h1>Онлайн-заявка на ремонт</h1>
+            <form id="request-form">
+                <input type="text" placeholder="Ваше имя" required>
+                <input type="tel" placeholder="Телефон" required>
+                <select required>
+                    <option value="">Выберите устройство</option>
+                    <option>Ноутбук</option>
+                    <option>Принтер</option>
+                </select>
+                <button type="submit" class="btn">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Сервисный центр HP</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <!-- В конце body -->
+<script src="js/theme.js"></script>
+<script src="js/currency.js"></script>
+<script src="js/script.js"></script>
+<script src="js/api.js"></script>
+</body>
+</html>
